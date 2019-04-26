@@ -1,2 +1,3 @@
 ---
 install_graphical_application: true
+install_autorandr_application: true
