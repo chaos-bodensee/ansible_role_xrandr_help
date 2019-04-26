@@ -1,0 +1,12 @@
+---
+- name: Include OS Specific vars
+  include_vars: "{{ ansible_os_family }}.yml"
+
+- name: Install xrandr
+
+- name: Install arandr gui
+  become: true
+  package:
+    name: 
+    state: present
+  when: install_graphical_application

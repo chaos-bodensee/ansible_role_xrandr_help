@@ -1,0 +1,12 @@
+---
+xrandr_package:
+ - libxrandr
+ - xorg-xrandr
+ - lib32-libxrandr
+
+graphical_xrandr_packages:
+ - arandr
+ - lxrandr-gtk3
+
+autorandr:
+ - autorandr
