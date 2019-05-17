@@ -13,6 +13,9 @@ install_graphical_application: true
 
 # do you want autorandr have installed? 
 install_autorandr_application: true
+
+# version management to prevent old playbooks
+submodules_versioncheck: true
 ```
 
  Attention:
