@@ -2,6 +2,10 @@
 - name: Include OS Specific vars
   include_vars: "{{ ansible_os_family }}.yml"
 
+- name: make versionscheck
+  include_tasks: versioncheck.yml
+  when: submodules_versioncheck|bool
+
 - name: Install xrandr
   become: true
   package:
@@ -13,11 +17,11 @@
   package:
     name: "{{ graphical_xrandr_packages }}"
     state: present
-  when: install_graphical_application
+  when: install_graphical_application|bool
 
 - name: Install autorandr
   become: true
   package:
     name: "{{ autorandr }}"
     state: present
-  when: install_autorandr_application
+  when: install_autorandr_application|bool

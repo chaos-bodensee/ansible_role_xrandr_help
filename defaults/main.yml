@@ -1,3 +1,6 @@
 ---
 install_graphical_application: true
 install_autorandr_application: true
+
+# version check for this playbook
+submodules_versioncheck: true
