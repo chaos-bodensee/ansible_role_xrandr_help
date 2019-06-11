@@ -4,7 +4,7 @@ galaxy_info:
   description: Install xrandr and their graphical version (arandr) to control your monitors.
   license: license (MIT)
   min_ansible_version: 2.3
-  role_name: xrandr-help
+  role_name: xrandr_help
   github_branch: master
   platforms:
     - name: Archlinux

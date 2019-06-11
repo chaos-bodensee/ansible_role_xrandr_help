@@ -1,11 +1,11 @@
  xrandr - Ansible role
 ==========================
 
-<a href="https://galaxy.ansible.com/do1jlr/xrandr-help"><img width="80px" src="https://galaxy.ansible.com/assets/galaxy-logo-02.svg"/></a>
+<a href="https://galaxy.ansible.com/do1jlr/xrandr_help"><img width="80px" src="https://galaxy.ansible.com/assets/galaxy-logo-02.svg"/></a>
 
 ### Get it directly from Ansible Galaxy 
 ```bash
-$ ansible-galaxy install do1jlr.xrandr-help
+$ ansible-galaxy install do1jlr.xrandr_help
 ```
 
  Information
