@@ -1,4 +1,6 @@
- xrandr - Ansible role
+[![Ansible Galaxy](https://raw.githubusercontent.com/roles-ansible/ansible_role_xrandr_help/main/.github/galaxy.svg?sanitize=true)](https://galaxy.ansible.com/do1jlr/xrandr_help) [![MIT License](https://raw.githubusercontent.com/roles-ansible/ansible_role_xrandr_help/main/.github/license.svg?sanitize=true)](https://github.com/roles-ansible/ansible_role_xrandr_help/blob/main/LICENSE)
+
+ ansible_role_xrandr_help
 ==========================
 
 <a href="https://galaxy.ansible.com/do1jlr/xrandr_help"><img width="80px" src="https://galaxy.ansible.com/assets/galaxy-logo-02.svg"/></a>
