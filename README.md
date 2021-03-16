@@ -15,19 +15,19 @@ Ansible role to install xrandr to controll your monitor setup.
 
 This is realy helpful, if you are using a display manager (eg. i3wm) that comes without a dedicated display control center (like gnome).
 
- Default variables:
+ Variables:
 -----------------
-```ini
-# do you want a graphical display contol panel like arandr
-install_graphical_application: true
 
-# do you want autorandr have installed?
-install_autorandr_application: true
+| Variable Name | Default Value | Function |
+| ------------- | ------------- | -------- |
+| ``install_graphical_application:`` | ``true`` | Install graphical xrandar applications like arandr |
+| ``install_autorandr_application:`` | ``true`` | Install autorandr |
+| ``submodules_versioncheck:`` | ``false`` | Perform simple versionscheck *(``true`` is recomended)* |
 
-# version management to prevent old playbooks
-submodules_versioncheck: true
-```
+ Testing
+---------
+This ansible role is tested with some simple linting tests and some other github actions:
 
- Attention:
--------------
-This playbook is only tested on archlinux. Package names on other OSes may be different.
+| Status | Marketplace |
+| ------ | ----------- |
+|
