@@ -3,6 +3,10 @@
  ansible_role_xrandr_help
 ==========================
 
+```
+This role is no longer maintained!
+```
+
 ### Get it directly from Ansible Galaxy 
 ```bash
 $ ansible-galaxy install do1jlr.xrandr_help
